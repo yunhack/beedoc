@@ -110,6 +110,10 @@ sort: 3
 	- level 日志保存的时候的级别，默认是 Trace 级别
 	- perm 日志文件权限
 
+	关于filename和daily日志的参数说明：
+	假如配置成：{"filename":"beego","daily":true}
+	那么编译运行后的同目录下会自动生成名为"beego"的日志文件，第二天会自动生成类似于"beego.2017-2-20.log"的文件
+	
 - multifile 
 
 	设置的例子如下所示：
